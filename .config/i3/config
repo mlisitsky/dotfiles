@@ -116,8 +116,8 @@ bindsym $mod+Shift+Delete	exec --no-startup-id lmc truemute ; exec $truepause ; 
 bindsym $mod+q			[con_id="__focused__" instance="^(?!math|dropdown).*$"] kill
 bindsym $mod+Shift+q		[con_id="__focused__" instance="^(?!math|dropdown).*$"] kill
 
-bindsym $mod+w			exec --no-startup-id $BROWSER
-bindsym $mod+Shift+w		exec --no-startup-id $BROWSER
+bindsym $mod+w			exec --no-startup-id firefox
+bindsym $mod+Shift+w		exec --no-startup-id qutebrowser
 
 bindsym $mod+e			exec $term -e neomutt
 bindsym $mod+Shift+e		exec --no-startup-id tutorialvids
@@ -416,3 +416,4 @@ bindsym XF86Documents		exec $term -e ranger ~/Documents
 ##bindsym XF86Battery		exec
 ##bindsym XF86Bluetooth		exec
 bindsym XF86WLAN		exec $netrefresh
+#exec_always --no-startup-id notify-send -i ~/.scripts/larbs.png '<b>Welcome to LARBS:</b> Press Super+F1 for the manual.' -t 10000

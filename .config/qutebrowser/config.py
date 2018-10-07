@@ -1262,7 +1262,7 @@ c.url.searchengines = {
         'sk': 'https://www.skytorrents.in/search/all/ed/1/?l=en-us&q={}',
         'vw': 'https://wiki.voidlinux.eu/index.php?search={}&title=Special%3ASearch',
         'thw': 'http://www.thinkwiki.org/w/index.php?search={}&title=Special%3ASearch',
-        'vw': 'http://vim.wikia.com/wiki/Special:Search?fulltext=Search&query={}',
+        'viw': 'http://vim.wikia.com/wiki/Special:Search?fulltext=Search&query={}',
         'mtp': 'http://en.metapedia.org/m/index.php?title=Special%3ASearch&search={}',
         'bc': 'https://www.bitchute.com/search?q={}&sort=date_created%20desc',
         'yt': 'https://hooktube.com/results?search_query={}',
