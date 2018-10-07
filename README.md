@@ -14,7 +14,7 @@ There are my dotfiles! They are mainly based around the configs created by [Luke
 + calcurse
 + ncmpcpp and mpd (my main music player)
 + Music on Console (moc and mocp as an alternative music player)
-+ mpv
++ mpv (using the MPC-HC Keybinds for MPV by (dragons4life)[https://github.com/dragons4life/MPC-HC-config-for-MPV]
 + neofetch
 + compton (For transparency and to stop screen tearing)
 + And many little scripts I use
