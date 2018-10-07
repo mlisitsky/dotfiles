@@ -1,11 +1,11 @@
-# Luke's GNU/Linux Dotfiles
+# Matthew's GNU/Linux Dotfiles
 
-There are my dotfiles! The name of the repo, "voidrice", came from the fact they were originally on my Void Linux machine, but these files are distro-independent. In fact, I now push changes from my X200 running Parabola or my X220 running Arch.
+There are my dotfiles! They are mainly based around the configs created by Luke Smith (Lukesmithxyz), who I am extremely grateful to for creating his voidrice repository. I mainly use them on my Arch desktop, but they should be distro independent. That said, the main differences between my configs and Luke's at this point are additional shortcuts based around my machine's folder structure, so if you happen upon this, I recommend you to use Luke's configs as a starting point for your own, as this is mainly for my own reference/backup purposes. Additionally, the rest of this repo's description is, unless specified, taken from the description of Luke's voidrice repo, with minor changes to make sure that Luke is credited in the proper places.
 
 ## Programs whose configs can be found here
 
 + i3 (i3-gaps)
-+ urxvt (rxvt-unicode) (although these files use [my st build](https://github.com/lukesmithxyz/st) as the default terminal)
++ urxvt (rxvt-unicode) (although these files use [Luke's st build](https://github.com/lukesmithxyz/st) as the default terminal)
 + vim
 + bash
 + ranger
@@ -33,13 +33,7 @@ Check other config folders for more specific documentation.
 
 Store your favorite or high-traffic folders in `~/.config/Scripts/folders` or your most important config files in `~/.config/Scripts/configs` with keyboard shortcuts. When you add things to theses files my vimrc will automatically run `~/.config/Scripts/shortcuts.sh` which will dynamically generate shortcuts for these in bash, ranger and qutebrowser!
 
-Check out more info at the main repo for this: [shortcut-sync](https://github.com/lukesmithxyz/shortcut-sync). You will really want to take advantage of this for an extremely efficient setup!
-
-## Like my rice?
-
-Feel free to add other suggestions and I may implement them.
-
-I have a job, but every penny I get from followers or subscribers is more incentive to perfect what I'm doing. You can donate to me at [https://paypal.me/LukeMSmith](https://paypal.me/LukeMSmith). Donations are earmarked for whatever the donator wants, usually to go to funds for buying new equipment for the [YouTube channel](https://youtube.com/c/LukeSmithxyz).
+Check out more info at the main repo for this: [shortcut-sync](https://github.com/lukesmithxyz/shortcut-sync). You will really want to take advantage of this for an extremely efficient setup.
 
 # "Dependencies" and programs used
 
@@ -49,4 +43,4 @@ The programs I use here are always changing, but luckily you can just look at th
 
 For your info, if the second column is a capital letter, that means that it's *not* installed by default, only when the user specifically requests it. Those with lowercase letters are just for classification purposes. Don't think you have to install every package to get these dotfiles working of course, but this list is a *sufficient condition* for full functionality. If you run into an error running my dotfiles, chances are the package you need is there.
 
-The only program not listed on that list is the one you have to install manually: [my st build](https://github.com/lukesmithxyz/st), which is easy enough to install.
+The only program not listed on that list is the one you have to install manually: [Luke's st build](https://github.com/lukesmithxyz/st), which is easy enough to install.
