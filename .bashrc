@@ -36,6 +36,7 @@ alias mkd="mkdir -pv"
 alias ref="shortcuts.sh && source ~/.bashrc" # Refresh shortcuts manually and reload bashrc
 alias bw="wal -i ~/.config/wall.png" # Rerun pywal
 alias pi="bash ~/.larbs/wizard/wizard.sh"
+alias vbam="visualboyadvance-m"
 
 # Adding color
 alias ls='ls -hN --color=auto --group-directories-first'
