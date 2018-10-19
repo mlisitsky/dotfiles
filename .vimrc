@@ -4,7 +4,7 @@
 "  \ V /| | | | | | | | | (__
 "   \_/ |_|_| |_| |_|_|  \___|
 
-let mapleader =" "
+let mapleader = " "
 " Load Pathogen for plugins:
 	execute pathogen#infect()
 	execute pathogen#helptags()

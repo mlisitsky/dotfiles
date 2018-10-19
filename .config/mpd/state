@@ -1,9 +1,7 @@
-sw_volume: 96
+sw_volume: 100
 audio_device_state:1:mpd alsamixer-output
 audio_device_state:1:toggle_visualizer
-state: play
-current: 14842
-time: 48.878000
+state: stop
 random: 0
 repeat: 0
 single: 0
@@ -14855,4 +14853,11 @@ playlist_begin
 14840:Rock/VA - The Rolling Stone Collection (1993) [FLAC] {Time-Life, R102-34}/CD6/01 - Eurythmics - Sweet Dreams (Are Made Of This).flac
 14841:Soundtrack/Eastern/Gantz/Gantz OST by Drakarn/01 - Death_of_Nishi.mp3
 14842:Electronic/Simian Mobile Disco - Attack Decay Sustain Release/01 - Sleep Deprivation.flac
+14843:Soundtrack/Eastern/Silent Hill OST Collection/Akira Yamaoka - Silent Hill 2 Original Soundtracks (2001) [FLAC]/01 - Theme Of Laura.flac
+14844:Undetermined Genre/pol/CYBERN4ZI - Galactic Lebensraum.zip/CYBERN4ZI - Galactic Lebensraum - 04 Right Wing Death Squads.flac
+14845:Undetermined Genre/pol/CYBERN4ZI - Angry Goy.zip/CYBERN4ZI - Angry Goy - 07 Buy This Track, Goy.flac
+14846:Undetermined Genre/pol/CYBERN4ZI - Angry Goy.zip/CYBERN4ZI - Angry Goy - 11 Neon (N4zi) Nights.flac
+14847:Undetermined Genre/pol/CYBERN4ZI - Angry Goy.zip/CYBERN4ZI - Angry Goy - 12 Hotline Munich.flac
+14848:Rock/Misc Rock/school shooter - ϟCHØØL ϟHØØTΣR/school shooter - ϟCHØØL ϟHØØTΣR - 02 I Hate Myself (And Everybody Else).flac
+14849:Rock/Misc Rock/school shooter - ϟCHØØL ϟHØØTΣR/school shooter - ϟCHØØL ϟHØØTΣR - 01 Bad Vibes.flac
 playlist_end
