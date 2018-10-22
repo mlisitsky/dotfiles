@@ -13,3 +13,5 @@ config.bind(";cf", "set downloads.location.directory ~/.config ;; hint links dow
 config.bind(";R", "set downloads.location.directory ~/Repos ;; hint links download")
 config.bind(";pw", "set downloads.location.directory ~/Pictures/Wallpapers ;; hint links download")
 config.bind(";pr", "set downloads.location.directory ~/Pictures/reactions ;; hint links download")
+config.bind(";pyt", "set downloads.location.directory ~/Documents/Programming/Python ;; hint links download")
+config.bind(";y", "set downloads.location.directory ~/Youtube ;; hint links download")

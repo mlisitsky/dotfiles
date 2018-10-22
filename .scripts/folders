@@ -1,9 +1,17 @@
-# You can add comments to these files with #
+ You can add comments to these files with #
 h	~/
 d	~/Documents
 D	~/Downloads
-m	~/Music
+ds	~/Documents/School/YORKU
+e3101	~/Documents/School/YORKU/Year_6/EECS_3101
+e3401	~/Documents/School/YORKU/Year_6/EECS_3401
+m	/media/seagate_backup/Backup/Music
 pp	~/Pictures
 vv	~/Videos
 s	~/.scripts
 cf	~/.config
+R	~/Repos
+pw	~/Pictures/Wallpapers
+pr	~/Pictures/reactions
+pyt	~/Documents/Programming/Python
+y	~/Youtube

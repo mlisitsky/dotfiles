@@ -21,6 +21,7 @@ alias mw="~/.config/mutt/mutt-wizard.sh"
 alias muttwizard="~/.config/mutt/mutt-wizard.sh"
 alias sdn="sudo shutdown now"
 alias psref="gpg-connect-agent RELOADAGENT /bye" # Refresh gpg
+alias rbn="sudo reboot now"
 
 # Some aliases
 alias p="sudo pacman"
@@ -37,6 +38,8 @@ alias ref="shortcuts.sh && source ~/.bashrc" # Refresh shortcuts manually and re
 alias bw="wal -i ~/.config/wall.png" # Rerun pywal
 alias pi="bash ~/.larbs/wizard/wizard.sh"
 alias vbam="visualboyadvance-m"
+alias py="python3"
+alias y="yaourt"
 
 # Adding color
 alias ls='ls -hN --color=auto --group-directories-first'
