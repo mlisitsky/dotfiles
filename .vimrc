@@ -4,7 +4,7 @@
 "  \ V /| | | | | | | | | (__
 "   \_/ |_|_| |_| |_|_|  \___|
 
-let mapleader = " "
+let mapleader = "\<Space>"
 " Load Pathogen for plugins:
 	execute pathogen#infect()
 	execute pathogen#helptags()

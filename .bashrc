@@ -39,10 +39,12 @@ alias bw="wal -i ~/.config/wall.png" # Rerun pywal
 alias pi="bash ~/.larbs/wizard/wizard.sh"
 alias vbam="visualboyadvance-m"
 alias py="python3"
+alias python="python3"
+alias rb="irb"
 alias y="yaourt"
 
 # Adding color
-alias ls='ls -hN --color=auto --group-directories-first'
+alias ls='ls -hsN --color=auto --group-directories-first'
 alias grep="grep --color=auto" # Color grep - highlight desired sequence.
 alias ccat="highlight --out-format=ansi" # Color cat - print file with syntax highlighting.
 
@@ -51,7 +53,7 @@ alias yt="youtube-dl --add-metadata -ic" # Download video link
 alias yta="yt -x -f bestaudio/best" # Download only audio
 alias YT="youtube-viewer"
 alias ethspeed="speedometer -r enp0s25"
-alias wifispeed="speedometer -r wlp3s0"
+alias wifispeed="speedometer -r wlp6s0"
 alias starwars="telnet towel.blinkenlights.nl"
 
 # TeX
