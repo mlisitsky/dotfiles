@@ -22,11 +22,19 @@ alias muttwizard="~/.config/mutt/mutt-wizard.sh"
 alias sdn="sudo shutdown now"
 alias psref="gpg-connect-agent RELOADAGENT /bye" # Refresh gpg
 alias rbn="sudo reboot now"
+alias df="pydf || df -Tha --total"
+alias du="ncdu || du -ach | sort -h"
+alias free="free -mt"
+alias ps="ps auxf"
+alias psg="ps aux | grep -v grep | grep - i VSZ -e"
+alias histg="history | grep"
+alias myip="curl http://ipecho.net/plain; echo"
 
 # Some aliases
 alias p="sudo pacman"
 alias SS="sudo systemctl"
 alias v="vim"
+alias nv="nvim"
 alias sv="sudo vim"
 alias r="ranger"
 alias sr="sudo ranger"
@@ -34,6 +42,9 @@ alias ka="killall"
 alias g="git"
 alias trem="transmission-remote"
 alias mkd="mkdir -pv"
+alias smkd="sudo mkdir -pv"
+alias mkdir="mkdir -pv"
+alias smkdir="sudo mkdir -pv"
 alias ref="shortcuts.sh && source ~/.bashrc" # Refresh shortcuts manually and reload bashrc
 alias bw="wal -i ~/.config/wall.png" # Rerun pywal
 alias pi="bash ~/.larbs/wizard/wizard.sh"
@@ -42,6 +53,14 @@ alias py="python3"
 alias python="python3"
 alias rb="irb"
 alias y="yaourt"
+alias ..="cd .."
+alias :q="exit"
+alias :Q="exit"
+alias :x="exit"
+alias cd..="cd .."
+alias c="clear"
+alias diff="colordiff || diff"
+alias lsa="ls -A"
 
 # Adding color
 alias ls='ls -hsN --color=auto --group-directories-first'
@@ -52,6 +71,7 @@ alias ccat="highlight --out-format=ansi" # Color cat - print file with syntax hi
 alias yt="youtube-dl --add-metadata -ic" # Download video link
 alias yta="yt -x -f bestaudio/best" # Download only audio
 alias YT="youtube-viewer"
+alias wget="wget -c"
 alias ethspeed="speedometer -r enp0s25"
 alias wifispeed="speedometer -r wlp6s0"
 alias starwars="telnet towel.blinkenlights.nl"
