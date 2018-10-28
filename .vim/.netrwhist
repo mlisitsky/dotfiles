@@ -1,4 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/home/user/.scripts/.getkeys'
 let g:netrw_dirhist_2='/home/user/.scripts'
+let g:netrw_dirhist_3='/home/user/.vim'
+let g:netrw_dirhist_4='/home/user/Repos/Vundle.vim'
+let g:netrw_dirhist_5='/home/user/.vim/bundle/wal.vim'

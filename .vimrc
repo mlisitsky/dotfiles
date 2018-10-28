@@ -5,6 +5,28 @@
 "   \_/ |_|_| |_| |_|_|  \___|
 
 let mapleader = "\<Space>"
+
+" Prepare to Initialize Vundle
+	set nocompatible
+	filetype plugin indent off
+	syntax off
+
+" Initialize Vundle
+	set rtp+=~/.vim/bundle/Vundle.vim
+	call vundle#begin()
+
+" Vundle plugins
+	Plugin 'VundleVim/Vundle.vim'
+
+" Vundle Bundles
+	Plugin 'vim-syntastic/syntastic'
+	Plugin 'ctrlpvim/ctrlp.vim'
+
+" Finish Initializing Vundle
+	call vundle#end()
+	filetype plugin indent on
+	syntax on
+
 " Load Pathogen for plugins:
 	execute pathogen#infect()
 	execute pathogen#helptags()
@@ -86,7 +108,7 @@ let mapleader = "\<Space>"
 
 " Copy selected text to system clipboard (requires gvim installed):
 	vnoremap <C-c> "*Y :let @+=@*<CR>
-	map <C-p> "+P
+	map <m-p> "+P
 
 " Goyo plugin makes text more readable when writing prose:
 	map <F10> :Goyo<CR>
