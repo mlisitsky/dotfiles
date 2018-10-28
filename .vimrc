@@ -71,12 +71,12 @@ let mapleader = "\<Space>"
 	map <F6> :setlocal spell! spelllang=en_us<CR>
 
 " Toggle DeadKeys set (for accent marks):
-	so ~/.vim/luke/deadkeys.vim
+	so ~/.vim/ling/deadkeys.vim
 	nm <leader><leader>d :call ToggleDeadKeys()<CR>
 	imap <leader><leader>d <esc>:call ToggleDeadKeys()<CR>a
 
 " Source my IPA shorcuts:
-	so ~/.vim/luke/ipa.vim
+	so ~/.vim/ling/ipa.vim
 	nm <leader><leader>i :call ToggleIPA()<CR>
 	imap <leader><leader>i <esc>:call ToggleIPA()<CR>a
 
@@ -94,7 +94,7 @@ let mapleader = "\<Space>"
 	inoremap <F10> <esc>:Goyo<CR>a
 
 " Toggle Prose Mode with F8:
-    so ~/.vim/luke/prose.vim
+    so ~/.vim/ling/prose.vim
     nm <F8> :call ToggleProse()<CR>
 
 " Enable Goyo by default for mutt writting

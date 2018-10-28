@@ -57,10 +57,11 @@ alias ..="cd .."
 alias :q="exit"
 alias :Q="exit"
 alias :x="exit"
+alias q="exit"
 alias cd..="cd .."
 alias c="clear"
 alias diff="colordiff || diff"
-alias lsa="ls -A"
+alias lsa="ls -Ah"
 
 # Adding color
 alias ls='ls -hsN --color=auto --group-directories-first'
@@ -78,6 +79,7 @@ alias starwars="telnet towel.blinkenlights.nl"
 
 # TeX
 alias Txa="cp ~/Documents/LaTeX/article.tex"
+alias Txm="cp ~/Documents/LaTeX/math_assignment.tex"
 alias Txs="cp ~/Documents/LaTeX/beamer.tex"
 alias Txh="cp ~/Documents/LaTeX/handout.tex"
 
