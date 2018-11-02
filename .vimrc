@@ -49,6 +49,15 @@ let mapleader = "\<Space>"
 	map <C-k> <C-w>k
 	map <C-l> <C-w>l
 
+" Save file with spacemacs shortcut
+	map <leader>fs :w<Enter>
+
+" Save file and exit
+	map <leader>wq :wq<Enter>
+
+" Exit without saving
+	map <leader>qq :q!<Enter>
+
 " Open file as suckless sent presentation
 	map <leader>s :!sent<space><C-r>% 2>/dev/null &<CR><CR>
 
@@ -108,7 +117,7 @@ let mapleader = "\<Space>"
 
 " Copy selected text to system clipboard (requires gvim installed):
 	vnoremap <C-c> "*Y :let @+=@*<CR>
-	map <m-p> "+P
+	map <F2> "+P
 
 " Goyo plugin makes text more readable when writing prose:
 	map <F10> :Goyo<CR>
