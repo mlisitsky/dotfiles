@@ -15,14 +15,17 @@
 # You can set these variables in ~/.profile or ~/.bash_profile if you have it as below:
 #
 # export BROWSER="firefox"
-# export TERMINAL="st"
+# export TERMINAL="urxvt"
 
 # #---Basic Definitions---# #
 # Needed for i3-gaps
 for_window [class="^.*"] border pixel 2
-gaps inner 15
-gaps outer 15
+gaps outer 0
+gaps inner 0
+smart_gaps on
+smart_borders on
 set $term --no-startup-id $TERMINAL
+set $term2 --no-startup-id urxvt
 set $mod Mod4
 set $stoprec --no-startup-id dmenurecord kill
 set $shutdown sudo -A shutdown -h now
@@ -95,7 +98,7 @@ bar {
 
 # #---Basic Bindings---# #
 bindsym $mod+Return 		exec $term
-bindsym $mod+Shift+Return	exec --no-startup-id samedir
+bindsym $mod+Shift+Return	exec --no-startup-id $term2
 
 bindsym $mod+Shift+space 	floating toggle
 bindsym $mod+space		focus mode_toggle
@@ -117,7 +120,7 @@ bindsym $mod+q			[con_id="__focused__" instance="^(?!math|dropdown).*$"] kill
 bindsym $mod+Shift+q		[con_id="__focused__" instance="^(?!math|dropdown).*$"] kill
 
 bindsym $mod+w			exec --no-startup-id firefox
-bindsym $mod+Shift+w		exec --no-startup-id qutebrowser
+bindsym $mod+Shift+w		exec --no-startup-id tor-browser
 
 bindsym $mod+e			exec --no-startup-id emacs
 bindsym $mod+Shift+e		exec $term -e neomutt
@@ -182,7 +185,7 @@ bindsym $mod+x			exec --no-startup-id lockscreen
 bindsym $mod+Shift+x		exec --no-startup-id prompt "Are you sure you want to shutdown?" "$shutdown"
 
 bindsym $mod+c			exec --no-startup-id camtoggle
-##bindsym $mod+Shift+c
+bindsym $mod+Shift+c		exec $term -e weechat
 
 bindsym $mod+v			exec $term -e ncmpcpp -s visualizer
 bindsym $mod+Shift+v		exec --no-startup-id projectM-pulseaudio
@@ -191,7 +194,7 @@ bindsym $mod+b			bar mode toggle
 bindsym $mod+Shift+b		floating toggle; sticky toggle; exec --no-startup-id bottomleft
 
 bindsym $mod+n			exec $term -e newspod
-##bindsym $mod+Shift+n
+bindsym $mod+Shift+n		exec $term2 -e w3m -v
 
 bindsym $mod+m 			exec --no-startup-id $term -e ncmpcpp
 bindsym $mod+Shift+m		exec --no-startup-id lmc mute
@@ -290,8 +293,8 @@ bindsym $mod+F2		restart
 bindsym $mod+F3		exec --no-startup-id displayselect
 bindsym $mod+F4		exec --no-startup-id prompt "Hibernate computer?" "$hibernate"
 bindsym $mod+F5		exec --no-startup-id $netrefresh
-bindsym $mod+F6		exec --no-startup-id $term -e transmission-remote-cli
-bindsym $mod+F7		exec --no-startup-id td-toggle
+bindsym $mod+F6		exec --no-startup-id $term -e transmission-daemon
+bindsym $mod+F7		exec --no-startup-id qbittorrent
 bindsym $mod+F8		exec --no-startup-id ~/.config/mutt/etc/mailsync.sh
 bindsym $mod+F9		exec --no-startup-id dmenumount
 bindsym $mod+F10	exec --no-startup-id dmenuumount
