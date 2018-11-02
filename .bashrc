@@ -62,6 +62,7 @@ alias cd..="cd .."
 alias c="clear"
 alias diff="colordiff || diff"
 alias lsa="ls -Ah"
+alias sb="sudo xbacklight -set"
 
 # Adding color
 alias ls='ls -hsN --color=auto --group-directories-first'
