@@ -19,9 +19,22 @@ http://lukesmith.xyz/rss.xml "tech"
 https://www.archlinux.org/feeds/news/ "~Arch Linux News" "tech"
 https://voidlinux.org/atom.xml "~Void Linux News" "tech"
 https://www.gentoo.org/feeds/news.xml "~Gentoo News" "tech"
-https://www.sciencedaily.com/rss/top/technology.xml "~Science Daily: Technology" "tech"
-https://www.cantechletter.com/feed "~Cantech Letter" "tech"
-http://rss.sciam.com/ScientificAmerican-Global "~Scientific American" "tech"
+https://www.parabola.nu/feeds/news/ "Parabola GNU/Linux-libre News" "tech"
+https://blog.qutebrowser.org/feeds/all.rss.xml "~qutebrowser Development Blog" "tech"
+http://sachachua.com/blog/category/emacs-news/feed/ "~Emacs News" "tech"
+https://neovim.io/news.xml "~Neovim News" "tech"
+https://www.sciencedaily.com/rss/top/technology.xml "~Science Daily: Technology" "tech" "news"
+https://www.cantechletter.com/feed "~Cantech Letter" "tech" "news"
+http://rss.sciam.com/ScientificAmerican-Global "~Scientific American" "tech" "news"
+https://static.fsf.org/fsforg/rss/news.xml "~Free Software Foundation News" "tech"
+http://static.fsf.org/fsforg/rss/blogs.xml "~Free Software Foundation Community Announcements" "tech"
+
+----------------------------------------------------------------------------------------------
+MAILING LISTS---------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+# https://groups.google.com/group/vim_announce/feed/rss_v2_0_msgs.xml?num=50 "~Vim Announcements" "tech"
+http://vim.1045645.n5.nabble.com/Vim-Announce-f1223437.xml "~Vim Announcements" "tech"
+http://vim.1045645.n5.nabble.com/Vim-General-f1139531.xml "~Vim Discussion" "tech"
 
 ----------------------------------------------------------------------------------------------
 YOUTUBE---------------------------------------------------------------------------------------
@@ -100,16 +113,39 @@ https://blog.anomalyuk.party/feed/ "~Anomaly UK" "commentary"
 http://slatestarcodex.com/feed/ "~Slate Star Codex" "commentary"
 https://samzdat.com/feed/ "~sam[ ]zdat" "commentary"
 http://esr.ibiblio.org/?feed=rss2 "~Eric S Raymond" "commentary"
-
+https://stallman.org/rss/rss.xml "~Richard Stallman's Political Notes" "commentary"
+http://www.ufblog.net/feed/ "~Urban Future (2.1)" "commentary"
+https://gioscontentcorner.wordpress.com/feed "~Gio's Content Corner" "commentary"
 ----------------------------------------------------------------------------------------------
 PODCASTS--------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------
 https://notrelated.libsyn.com/rss "~Not Related!" "commentary"
 https://www.socialmatter.net/feed/podcast/ "~Ascending the Tower" "commentary"
+https://amerikanertonight.podbean.com/feed.xml "~Amerikaner Tonight" "commentary"
+https://parallaxviews.podbean.com/feed.xml "~Parallax Views" "commentary"
+http://joeroganexp.joerogan.libsynpro.com/rss "~The Joe Rogan Experience" "commentary"
+http://feeds.soundcloud.com/users/soundcloud:users:174770374/sounds.rss "~The Ben Shapiro Show" "commentary"
 
+https://sagathing.podbean.com/feed.xml "~Saga Thing" "history"
+https://norsebynorthwest.podbean.com/feed.xml "~Norse By Norsewest" "history"
+https://TheGreatWarPodcast.podbean.com/feed.xml "~The Great War Podcast" "history"
+https://feeds.feedburner.com/dancarlin/history?format=xml "~Hardcore History" "history"
+https://dchhaddendum.libsyn.com/rss?format=xml "~Hardcore History Addendum" "history"
+https://wartime.podbean.com/feed.xml "~Wartime: A History Series" "history"
+https://johnzhu.podbean.com/feed.xml "~Romance of the Three Kingdoms" "history"
+https://mythandhistory2.podbean.com/feed.xml "~Myths and Legends of Europe" "history"
+https://rexfactor.podbean.com/feed.xml "~Rex Factor" "history"
+
+http://lpotl.libsyn.com/rss "~The Last Podcast on the Left" "misc"
+https://truecrimegarage.podbean.com/feed.xml "~True Crime Garage" "misc"
+https://UFOParanormalRadio.podbean.com/feed.xml "~UFO Paranormal Radio" "misc"
 ----------------------------------------------------------------------------------------------
 TWITTER---------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------
+https://twitrss.me/twitter_search_to_rss/?term=from%253Aspacemacs "~Spacemacs - Twitter" "twitter" "tech"
+
+https://twitrss.me/twitter_user_to_rss/?user=realdonaldtrump "~Donald Trump - Twitter" "twitter"
+https://twitrss.me/twitter_search_to_rss/?term=from%253Amisterantibully+exclude:replies+exclude:retweets "~Jim - Twitter" "twitter"
 https://twitrss.me/twitter_user_to_rss/?user=outsideness "~Nick Land - Twitter" "twitter"
 https://twitrss.me/twitter_user_to_rss/?user=thefaceberg "~Faceberg - Twitter" "twitter"
 https://twitrss.me/twitter_user_to_rss/?user=wrathofgnon "~Wrath of Gnon - Twitter" "twitter"
@@ -122,4 +158,19 @@ https://twitrss.me/twitter_user_to_rss/?user=Jungercultist "~Anarch - Twitter" "
 https://twitrss.me/twitter_user_to_rss/?user=FreeNortherner "~Free Northerner - Twitter" "twitter"
 https://twitrss.me/twitter_user_to_rss/?user=GolfNorman "~The+Magician - Twitter" "twitter"
 https://twitrss.me/twitter_user_to_rss/?user=Comrade_Yui "~Comrade Yui - Twitter" "twitter"
+https://twitrss.me/twitter_search_to_rss/?term=from%253Akaczynskionline "~Kacyznski Online - Twitter" "twitter"
+https://twitrss.me/twitter_search_to_rss/?term=from%253Aauschclitz "~Pantsukampfwagen - Twitter" "twitter"
+https://twitrss.me/twitter_search_to_rss/?term=from%253A_weebmarck "~Weebmark - Twitter" "twitter"
+https://twitrss.me/twitter_search_to_rss/?term=from%253Acyborg_nomade "~Cyborg Nomad - Twitter" "twitter"
+https://twitrss.me/twitter_search_to_rss/?term=from%253Aggreenwald "~Glenn Greenwald - Twitter" "twitter"
+https://twitrss.me/twitter_search_to_rss/?term=from%253Ahbdnrx "~HBD NRX - Twitter" "twitter"
+https://twitrss.me/twitter_search_to_rss/?term=from%253Aradio_wehrwolf "~Radio Wehrwolf - Twitter" "twitter"
+https://twitrss.me/twitter_search_to_rss/?term=from%253Aregicanadien "~Regi Canadien - Twitter" "twitter"
+https://twitrss.me/twitter_search_to_rss/?term=from%253Asalosaloson "~Salo Saloson - Twitter" "twitter"
+https://twitrss.me/twitter_search_to_rss/?term=from%253Aliangweihan4 "~Weihan Zhang - Twitter" "twitter"
+https://twitrss.me/twitter_search_to_rss/?term=from%253Afuhrerjax "~Fuhrer Jax - Twitter" "twitter"
+https://twitrss.me/twitter_search_to_rss/?term=from%253Ayamaxanadieu "~Yamaxanadieu - Twitter" "twitter"
+https://twitrss.me/twitter_search_to_rss/?term=from%253Agiantgio "~Gio's A E S T H E T I C content Corner - Twitter" "twitter"
+https://twitrss.me/twitter_search_to_rss/?term=from%253Atheququ "~QuQu - Twitter" "twitter"
+https://twitrss.me/twitter_search_to_rss/?term=from%253Awoke8yearold "~Aleph - Twitter" "twitter"
 
