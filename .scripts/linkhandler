@@ -15,6 +15,8 @@ scihub="http://sci-hub.tw/"
 case "$1" in
 	*mkv|*webm|*mp4|*gif|*youtube.com*|*hooktube.com*)
 		setsid mpv -quiet "$1" >/dev/null 2>&1 & ;;
+	*reddit.com*)
+		exec $TERMINAL -e rtv "$1"  & ;;
 	*png|*jpg|*jpe|*jpeg)
 		setsid feh "$1" >/dev/null 2>&1 & ;;
 	*mp3|*flac|*opus|*mp3?source)
