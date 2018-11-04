@@ -30,7 +30,7 @@ https://static.fsf.org/fsforg/rss/news.xml "~Free Software Foundation News" "tec
 http://static.fsf.org/fsforg/rss/blogs.xml "~Free Software Foundation Community Announcements" "tech"
 
 ----------------------------------------------------------------------------------------------
-MAILING LISTS---------------------------------------------------------------------------------
+MAILING_LISTS---------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------
 # https://groups.google.com/group/vim_announce/feed/rss_v2_0_msgs.xml?num=50 "~Vim Announcements" "tech"
 http://vim.1045645.n5.nabble.com/Vim-Announce-f1223437.xml "~Vim Announcements" "tech"
