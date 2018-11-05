@@ -28,6 +28,8 @@ https://www.cantechletter.com/feed "~Cantech Letter" "tech" "news"
 http://rss.sciam.com/ScientificAmerican-Global "~Scientific American" "tech" "news"
 https://static.fsf.org/fsforg/rss/news.xml "~Free Software Foundation News" "tech"
 http://static.fsf.org/fsforg/rss/blogs.xml "~Free Software Foundation Community Announcements" "tech"
+https://www.eff.org/rss/updates.xml "~Electronic Frontier Foundation Updates" "tech"
+https://act.eff.org/action.atom "~Electronic Frontier Foundation Action Center" "tech"
 
 ----------------------------------------------------------------------------------------------
 MAILING_LISTS---------------------------------------------------------------------------------
@@ -35,6 +37,136 @@ MAILING_LISTS-------------------------------------------------------------------
 # https://groups.google.com/group/vim_announce/feed/rss_v2_0_msgs.xml?num=50 "~Vim Announcements" "tech"
 http://vim.1045645.n5.nabble.com/Vim-Announce-f1223437.xml "~Vim Announcements" "tech"
 http://vim.1045645.n5.nabble.com/Vim-General-f1139531.xml "~Vim Discussion" "tech"
+
+----------------------------------------------------------------------------------------------
+BLOGS-----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+https://freenortherner.com/feed/ "~Free Northerner" "commentary"
+http://www.xenosystems.net/feed/ "~Outside In" "commentary"
+http://socialpathology.blogspot.com/feeds/posts/default "~Social Pathology" "commentary"
+https://deconstructingleftism.wordpress.com/feed "~Deconstructing Leftism" "commentary"
+https://blog.anomalyuk.party/feed/ "~Anomaly UK" "commentary"
+http://slatestarcodex.com/feed/ "~Slate Star Codex" "commentary"
+https://samzdat.com/feed/ "~sam[ ]zdat" "commentary"
+http://esr.ibiblio.org/?feed=rss2 "~Eric S Raymond" "commentary"
+https://stallman.org/rss/rss.xml "~Richard Stallman's Political Notes" "commentary"
+http://www.ufblog.net/feed/ "~Urban Future (2.1)" "commentary"
+https://gioscontentcorner.wordpress.com/feed "~Gio's Content Corner" "commentary"
+https://weev.net/feed "~weev - world-class polemic" "commentary"
+
+https://freedom-to-tinker.com/feed/ "~Freedom to Tinker" "tech"
+https://hasbrouck.org/blog/index.rdf "~The Practical Nomad" "tech"
+https://www.bespacific.com/feed/ "~beSpacific" "tech"
+http://rss.slashdot.org/Slashdot/slashdotYourRightsOnline "~Slashdot: Your Rights Online" "tech"
+
+----------------------------------------------------------------------------------------------
+PODCASTS--------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+https://notrelated.libsyn.com/rss "~Not Related!" "commentary"
+https://www.socialmatter.net/feed/podcast/ "~Ascending the Tower" "commentary"
+https://amerikanertonight.podbean.com/feed.xml "~Amerikaner Tonight" "commentary"
+https://parallaxviews.podbean.com/feed.xml "~Parallax Views" "commentary"
+http://joeroganexp.joerogan.libsynpro.com/rss "~The Joe Rogan Experience" "commentary"
+http://feeds.soundcloud.com/users/soundcloud:users:174770374/sounds.rss "~The Ben Shapiro Show" "commentary"
+http://dietsoap.podomatic.com//rss2.xml "~Zero Squared" "commentary"
+https://feeds.buzzsprout.com/174244.rss "~Dial It Back Or Die" "commentary"
+https://canadalandcommons.libsyn.com/rss "~Commons" "commentary"
+https://www.cbc.ca/podcasting/includes/thehouse.xml "~The House from CBC Radio" "commentary"
+http://snscanada.libsyn.com/rss "~Sorry Not Sorry Canada" "commentary"
+https://canadianpatriotpodcast.libsyn.com/rss "~Canadian Patriot Podcast" "commentary"
+
+http://feeds.feedburner.com/programmingthrowdown "~Programming Throwdown" "tech"
+http://feeds.feedburner.com/se-radio "~Software Engineering Radio" "tech"
+
+http://canhammer.libsyn.com/rss "~CanHammer" "hobby"
+https://theindependentcharacters.libsyn.com/rss "~The Independent Characters" "hobby"
+http://feeds.feedburner.com/ftnpodcast "~Forge The Narrative" "hobby"
+
+https://sagathing.podbean.com/feed.xml "~Saga Thing" "history"
+https://norsebynorthwest.podbean.com/feed.xml "~Norse By Norsewest" "history"
+https://TheGreatWarPodcast.podbean.com/feed.xml "~The Great War Podcast" "history"
+https://feeds.feedburner.com/dancarlin/history?format=xml "~Hardcore History" "history"
+https://dchhaddendum.libsyn.com/rss?format=xml "~Hardcore History Addendum" "history"
+https://wartime.podbean.com/feed.xml "~Wartime: A History Series" "history"
+https://johnzhu.podbean.com/feed.xml "~Romance of the Three Kingdoms" "history"
+https://mythandhistory2.podbean.com/feed.xml "~Myths and Legends of Europe" "history"
+https://rexfactor.podbean.com/feed.xml "~Rex Factor" "history"
+
+http://lpotl.libsyn.com/rss "~The Last Podcast on the Left" "misc"
+https://truecrimegarage.podbean.com/feed.xml "~True Crime Garage" "misc"
+https://UFOParanormalRadio.podbean.com/feed.xml "~UFO Paranormal Radio" "misc"
+https://media.zencast.fm/the-paranormies-present-the-ahnenerbe-hour-1/rss "~The Paranormies Present"
+
+----------------------------------------------------------------------------------------------
+REDDIT----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+https://www.reddit.com/r/linux.rss "~r/linux" "reddit" "tech"
+https://www.reddit.com/r/unix.rss "~r/unix" "reddit" "tech"
+https://www.reddit.com/r/linuxhardware.rss "~r/linuxhardware" "reddit" "tech"
+https://www.reddit.com/r/ubuntu.rss "~r/ubuntu" "reddit" "tech"
+https://www.reddit.com/r/archlinux.rss "~r/archlinux" "reddit" "tech"
+https://www.reddit.com/r/gentoo.rss "~r/gentoo" "reddit" "tech"
+https://www.reddit.com/r/voidlinux.rss "~r/voidlinux" "reddit" "tech"
+https://www.reddit.com/r/manjarolinux.rss "~r/manjarolinux" "reddit" "tech"
+https://www.reddit.com/r/bsd.rss "~r/bsd" "reddit" "tech"
+https://www.reddit.com/r/freebsd.rss "~r/freebsd" "reddit" "tech"
+https://www.reddit.com/r/openbsd.rss "~r/openbsd" "reddit" "tech"
+https://www.reddit.com/r/netbsd.rss "~r/netbsd" "reddit" "tech"
+https://www.reddit.com/r/dragonflybsd.rss "~r/dragonflybsd" "reddit" "tech"
+https://www.reddit.com/r/plan9.rss "~r/plan9" "reddit" rtech"
+https://www.reddit.com/r/raspberry_pi.rss "~r/raspberry_pi" "reddit" rtech"
+https://www.reddit.com/r/linuxfromscratch.rss "~r/linuxfromscratch" "reddit" "tech"
+https://www.reddit.com/r/trackers.rss "~r/trackers" "reddit" "tech"
+https://www.reddit.com/r/freesoftware.rss "~r/freesoftware" "reddit" "tech"
+https://www.reddit.com/r/libredesign.rss "~r/libredesign" "reddit" "tech"
+https://www.reddit.com/r/librestudio.rss "~r/librestudio" "reddit" "tech"
+https://www.reddit.com/r/hackbloc.rss "~r/hackbloc" "reddit" "tech"
+https://www.reddit.com/r/opensource.rss "~r/opensource" "reddit" "tech"
+https://www.reddit.com/r/commandline.rss "~r/commandline" "reddit" "tech"
+https://www.reddit.com/r/netsec.rss "~r/netsec" "reddit" "tech"
+https://www.reddit.com/r/tor.rss "~r/tor" "reddit" "tech"
+https://www.reddit.com/r/i3wm.rss "~r/i3wm" "reddit" "tech"
+https://www.reddit.com/r/awesomewm.rss "~r/awesomewm" "reddit" "tech"
+https://www.reddit.com/r/xmonad.rss "~r/xmonad" "reddit" "tech"
+https://www.reddit.com/r/unixporn.rss "~r/unixporn" "reddit" "tech"
+https://www.reddit.com/r/usabilityporn.rss "~r/usabilityporn" "reddit" "tech"
+
+https://www.reddit.com/r/crypocurrency.rss "~r/crypocurrency" "reddit" "commentary"
+https://www.reddit.com/r/cryptoanarchy.rss "~r/cryptoanarchy" "reddit" "commentary"
+https://www.reddit.com/r/bitcoin.rss "~r/bitcoin" "reddit" "commentary"
+https://www.reddit.com/r/christianity.rss "~r/christianity" "reddit" "commentary"
+https://www.reddit.com/r/nrx.rss "~r/nrx" "reddit" "commentary"
+https://www.reddit.com/r/darkenlightenment.rss "~r/darkenlightenment" "reddit" "commentary"
+https://www.reddit.com/r/freeculture.rss "~r/freeculture" "reddit" "commentary"
+
+https://www.reddit.com/r/warhammer.rss "~r/warhammer" "reddit" "hobby"
+https://www.reddit.com/r/warhammer40k.rss "~r/warhammer40k" "reddit" "hobby"
+https://www.reddit.com/r/warhammer30k.rss "~r/warhammer30k" "reddit" "hobby"
+https://www.reddit.com/r/yoyhammer.rss?feed=f7d46230c794b30aa293c0fa900b508e3c44194d&user=Skraal2099 "~r/yoyhammer" "reddit" "hobby"
+https://www.reddit.com/r/minipainting.rss "~r/minipainting" "reddit" "hobby"
+https://www.reddit.com/r/miniswap.rss "~r/miniswap" "reddit" "hobby"
+https://www.reddit.com/r/terrainbuilding.rss "~r/terrainbuilding" "reddit" "hobby"
+https://www.reddit.com/r/gunpla.rss "~r/gunpla" "reddit" "hobby"
+https://www.reddit.com/r/flamesofwar.rss "~r/flamesofwar" "reddit" "hobby"
+https://www.reddit.com/r/teamyankee.rss "~r/teamyankee" "reddit" "hobby"
+https://www.reddit.com/r/boltaction.rss "~r/boltaction" "reddit" "hobby"
+https://www.reddit.com/r/infinitythegame.rss "~r/infinitythegame" "reddit" "hobby"
+https://www.reddit.com/r/callofcthulhu.rss "~r/callofcthulhu" "reddit" "hobby"
+https://www.reddit.com/r/deltagreenrpg.rss "~r/deltagreenrpg" "reddit" "hobby"
+
+https://www.reddit.com/r/freegaming.rss "~r/freegaming" "reddit" "commentary"
+https://www.reddit.com/r/linuxgaming.rss "~r/linuxgaming" "reddit" "commentary"
+https://www.reddit.com/r/modpiracy.rss "~r/modpiracy" "reddit" "gaming"
+https://www.reddit.com/r/drownedmods.rss "~r/drownedmods" "reddit" "gaming"
+https://www.reddit.com/r/gamedeals.rss "~r/gamedeals" "reddit" "gaming"
+https://www.reddit.com/r/2007scape.rss "~r/2007scape" "reddit" "gaming"
+https://www.reddit.com/r/dwarffortress.rss "~r/dwarffortress" "reddit" "commentary"
+https://www.reddit.com/r/paradoxplaza.rss "~r/paradoxplaza" "reddit" "commentary"
+
+https://www.reddit.com/r/4chan.rss "~r/4chan" "reddit" "misc"
+https://www.reddit.com/r/classic4chan.rss "~r/classic4chan" "reddit" "misc"
+https://www.reddit.com/r/nosleep.rss "~r/nosleep" "reddit" "misc"
+https://www.reddit.com/r/letsnotmeet.rss "~r/letsnotmeet" "reddit" "misc"
 
 ----------------------------------------------------------------------------------------------
 YOUTUBE---------------------------------------------------------------------------------------
@@ -56,6 +188,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCfYbb7nga6-icsFWWgS-kWw "~M
 https://www.youtube.com/feeds/videos.xml?channel_id=UCZAENaOaceQUMd84GDc26EA "~Survive the Jive" "commentary"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC9pgQfOXRsp4UKrI8q0zjXQ "~Lindybeige" "commentary"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCL-KWzX_hw7yfVR7WPQxIeA "~T Я U Σ Ð I L T O M" "commentary"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCJ6o36XL0CpYb6U5dNBiXHQ "~Shaun" "commentary"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCbkjX3E0IhuUfPzL0FjSPaw "~Rekieta Law" "commentary"
 
 https://www.youtube.com/feeds/videos.xml?channel_id=UC7dHBh9QmYF1L0TOeGIzZgw "~Lazy Masquerade" "creepypasta"
@@ -102,45 +235,6 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UC1DTYW241WD64ah5BFWn4JA "~S
 https://www.youtube.com/feeds/videos.xml?channel_id=UC7yPuRdd4ZKhJQueiVnjd2A "~Joe Capo" "misc"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCmc7E8D4Fnf2_JXfXpH_b5w "~Loliconics" "misc"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCnNAj7O2pARPGC7M0-zybAQ "~Melonpan" "misc"
-
-----------------------------------------------------------------------------------------------
-BLOGS-----------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------
-https://freenortherner.com/feed/ "~Free Northerner" "commentary"
-http://www.xenosystems.net/feed/ "~Outside In" "commentary"
-http://socialpathology.blogspot.com/feeds/posts/default "~Social Pathology" "commentary"
-https://deconstructingleftism.wordpress.com/feed "~Deconstructing Leftism" "commentary"
-https://blog.anomalyuk.party/feed/ "~Anomaly UK" "commentary"
-http://slatestarcodex.com/feed/ "~Slate Star Codex" "commentary"
-https://samzdat.com/feed/ "~sam[ ]zdat" "commentary"
-http://esr.ibiblio.org/?feed=rss2 "~Eric S Raymond" "commentary"
-https://stallman.org/rss/rss.xml "~Richard Stallman's Political Notes" "commentary"
-http://www.ufblog.net/feed/ "~Urban Future (2.1)" "commentary"
-https://gioscontentcorner.wordpress.com/feed "~Gio's Content Corner" "commentary"
-
-----------------------------------------------------------------------------------------------
-PODCASTS--------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------
-https://notrelated.libsyn.com/rss "~Not Related!" "commentary"
-https://www.socialmatter.net/feed/podcast/ "~Ascending the Tower" "commentary"
-https://amerikanertonight.podbean.com/feed.xml "~Amerikaner Tonight" "commentary"
-https://parallaxviews.podbean.com/feed.xml "~Parallax Views" "commentary"
-http://joeroganexp.joerogan.libsynpro.com/rss "~The Joe Rogan Experience" "commentary"
-http://feeds.soundcloud.com/users/soundcloud:users:174770374/sounds.rss "~The Ben Shapiro Show" "commentary"
-
-https://sagathing.podbean.com/feed.xml "~Saga Thing" "history"
-https://norsebynorthwest.podbean.com/feed.xml "~Norse By Norsewest" "history"
-https://TheGreatWarPodcast.podbean.com/feed.xml "~The Great War Podcast" "history"
-https://feeds.feedburner.com/dancarlin/history?format=xml "~Hardcore History" "history"
-https://dchhaddendum.libsyn.com/rss?format=xml "~Hardcore History Addendum" "history"
-https://wartime.podbean.com/feed.xml "~Wartime: A History Series" "history"
-https://johnzhu.podbean.com/feed.xml "~Romance of the Three Kingdoms" "history"
-https://mythandhistory2.podbean.com/feed.xml "~Myths and Legends of Europe" "history"
-https://rexfactor.podbean.com/feed.xml "~Rex Factor" "history"
-
-http://lpotl.libsyn.com/rss "~The Last Podcast on the Left" "misc"
-https://truecrimegarage.podbean.com/feed.xml "~True Crime Garage" "misc"
-https://UFOParanormalRadio.podbean.com/feed.xml "~UFO Paranormal Radio" "misc"
 
 ----------------------------------------------------------------------------------------------
 TWITTER---------------------------------------------------------------------------------------
