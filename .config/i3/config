@@ -15,7 +15,7 @@
 # You can set these variables in ~/.profile or ~/.bash_profile if you have it as below:
 #
 # export BROWSER="firefox"
-# export TERMINAL="urxvt"
+# export TERMINAL="st"
 
 # #---Basic Definitions---# #
 # Needed for i3-gaps
@@ -123,7 +123,7 @@ bindsym $mod+w			exec --no-startup-id firefox
 bindsym $mod+Shift+w		exec --no-startup-id tor-browser
 
 bindsym $mod+e			exec --no-startup-id emacs
-bindsym $mod+Shift+e		exec $term -e neomutt
+bindsym $mod+Shift+e		exec --no-startup-id thunderbird
 ##bindsym $mod+Shift+e		exec --no-startup-id tutorialvids
 
 bindsym $mod+r 			exec $term -e ranger
