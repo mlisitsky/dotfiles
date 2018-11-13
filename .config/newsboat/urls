@@ -19,10 +19,21 @@ http://lukesmith.xyz/rss.xml "tech"
 https://www.archlinux.org/feeds/news/ "~Arch Linux News" "tech"
 https://voidlinux.org/atom.xml "~Void Linux News" "tech"
 https://www.gentoo.org/feeds/news.xml "~Gentoo News" "tech"
-https://www.parabola.nu/feeds/news/ "Parabola GNU/Linux-libre News" "tech"
+https://www.parabola.nu/feeds/news/ "~Parabola GNU/Linux-libre News" "tech"
+https://manjaro.org/feed/ "~Manjaro News" "tech"
+https://sourceforge.net/p/archbang/activity/feed "~ArchBang News" "tech"
+https://www.freebsd.org/news/rss.xml "~freeBSD News" "tech"
+http://openbsd-current-rss.appspot.com/ "~openBSD News" "tech"
+http://www.netbsd.org/changes/rss-netbsd.xml "~netBSD News" "tech"
+http://www.netbsd.org/support/security/rss-advisories.xml "~netBSD Security Advisories" "tech"
+https://www.dragonflydigest.com/feed "~dragonflyBSD Digest" "tech"
 https://blog.qutebrowser.org/feeds/all.rss.xml "~qutebrowser Development Blog" "tech"
 http://sachachua.com/blog/category/emacs-news/feed/ "~Emacs News" "tech"
 https://neovim.io/news.xml "~Neovim News" "tech"
+https://blogs.coreboot.org/feed/ "~Coreboot News" "tech"
+https://libreboot.org/feed.xml "~Libreboot News" "tech"
+https://blog.torproject.org/rss.xml "~Tor Project News" "tech"
+
 https://www.sciencedaily.com/rss/top/technology.xml "~Science Daily: Technology" "tech" "news"
 https://www.cantechletter.com/feed "~Cantech Letter" "tech" "news"
 http://rss.sciam.com/ScientificAmerican-Global "~Scientific American" "tech" "news"
@@ -30,13 +41,15 @@ https://static.fsf.org/fsforg/rss/news.xml "~Free Software Foundation News" "tec
 http://static.fsf.org/fsforg/rss/blogs.xml "~Free Software Foundation Community Announcements" "tech"
 https://www.eff.org/rss/updates.xml "~Electronic Frontier Foundation Updates" "tech"
 https://act.eff.org/action.atom "~Electronic Frontier Foundation Action Center" "tech"
-
+https://distrowatch.com/news/news-headlines.xml "~Distrowatch News" "tech"
 ----------------------------------------------------------------------------------------------
 MAILING_LISTS---------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------
 # https://groups.google.com/group/vim_announce/feed/rss_v2_0_msgs.xml?num=50 "~Vim Announcements" "tech"
 http://vim.1045645.n5.nabble.com/Vim-Announce-f1223437.xml "~Vim Announcements" "tech"
 http://vim.1045645.n5.nabble.com/Vim-General-f1139531.xml "~Vim Discussion" "tech"
+https://groups.google.com/group/computer-go-archive/feed/rss_v2_0_msgs.xml?num=50 "~AlphaGo" "tech"
+https://notifier.in/rss/52175cdvpfspqhpqlc8vdsgjy35ku6rg.xml "~freeBSD Mailing List" "tech"
 
 ----------------------------------------------------------------------------------------------
 BLOGS-----------------------------------------------------------------------------------------
@@ -67,6 +80,16 @@ http://rss.slashdot.org/Slashdot/slashdotYourRightsOnline "~Slashdot: Your Right
 http://feeds.feedburner.com/neuro-skeptic "~Neuroskeptic" "tech"
 http://feeds.feedburner.com/lovesick-cyborg "~Lovesick Cyborg" "tech"
 http://feeds.feedburner.com/BodyHorrors "~Body Horrors" "tech"
+
+http://wilhelminiatures.blogspot.com/feeds/posts/default "~Wilhel Miniatures" "hobby"
+http://musingsofametalmind.blogspot.com/feeds/posts/default "~Musings of a Metal Mind" "hobby"
+http://mordian7th.blogspot.com/feeds/posts/default "~Mordian 7th Regiment" "hobby"
+http://convertorum.blogspot.com/feeds/posts/default "~The Convertorum" "hobby"
+http://wappellious.blogspot.com/feeds/posts/default "~James Wappell Miniature Painting" "hobby"
+https://thebovineoverlord.wordpress.com/feed "~The Bovine Overlord" "hobby"
+https://otakuonabudget.blogspot.com/feeds/posts/default "~Otaku on a Budget" "hobby"
+http://plamoaddiction.blogspot.com/feeds/posts/default "~Plamo Addiction" "hobby"
+http://feeds.feedburner.com/gamerabaenre/HEve "~Gamera Baenre" "hobby"
 
 ----------------------------------------------------------------------------------------------
 PODCASTS--------------------------------------------------------------------------------------
@@ -190,6 +213,8 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCRP1Zx7B4b66ZwkB2Ov5pMw "~w
 https://www.youtube.com/feeds/videos.xml?channel_id=UCxwcmRAmBRzZMNS37dCgmHA "~RoboNuggie" "tech"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCoryWpk4QVYKFCJul9KBdyw "~Switched to Linux" "tech"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCFzGyNKXPAglNq28qWYTDFA "~Kai Hendry" "tech"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCZrrEuHiQjN2CUo84g5tk7w "~tripcode!Q/7" "tech"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCqbkm47qBxDj-P3lI9voIAw "~danooct1" "tech"
 
 https://www.youtube.com/feeds/videos.xml?channel_id=UCe9g_wsVXN17qmw8kPk4hRw "~Dr. Layman" "commentary"
 https://www.youtube.com/feeds/videos.xml?channel_id=UChBsOxskMpDmBAsgJ91fKcg "~Thulean Perspective" "commentary"
